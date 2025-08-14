@@ -17,14 +17,18 @@ title-slide-attributes:
 ## Background
 - Degrees in Earth science, public administration, and biology
 - Experienced with a variety of data analytics tools
-- Several years of experience in client-facing roles
 - Track record of Open Science practices
+- Several years of experience in client-facing roles
 
 ::: {.notes}
 
-I come from a background that brings together freshwater ecology and data science. Over the years, I’ve worked with spatial data, simulation models, and statistical analysis — using tools like R, Python, NetLogo, QGIS, git, and Docker.
+I come from a background that brings together freshwater ecology, Earth science, policy, and data science. This broad exposure to different areas of study has allowed me to succeed in projects with diverse knowledge bases. Over the years, I’ve worked with ecological data, spatial data, simulation models, and statistical analysis. 
 
-What excites me about this position is how well it lines up with my interests and strengths: analyzing complex datasets, supporting reproducible science, and collaborating across research teams. IGB’s focus on FAIR data practices, Open Science, and cross-disciplinary teamwork really speaks to the way I already approach my work.
+I have extensive experience solving these problems with tools like R, Python, NetLogo, QGIS, git, and Docker in a way that supports open and reproducible science.
+
+And although my resume highlights my background in academia, most of the roles I've had over the several years or so have been collaborative and service-focused, which I will go into in just a moment.
+
+
 :::
 
 
@@ -81,7 +85,9 @@ It's critical to find out what the data are (or aren't if a project still needs 
 - Develop a pipeline to keep things organized
 
 ::: {.notes}
+
 notes tests 2
+
 :::
 
 
@@ -138,28 +144,92 @@ notes tests 3
 
 ## Conclusion
 
-What do I bring to IGB and the Research Data Management group?
+What would I bring to IGB and the Research Data Management group?
+
+
 
 . . .
 
 - Jack of all trades with freshwater expertise
 
+::: {.notes}
+
+My diverse education and work experience have helped me understand how to join a new project and identify what I need to learn to become productive and helpful right away. My knowledge of freshwater biology should make that process even faster.
+
+:::
+
 . . .
 
 - Success in service-oriented roles both inside and outside knowledge base
+
+::: {.notes}
+
+I have a track record of success in service roles across a number of domains, and I'd be excited to bring that experience to IGB. 
+
+:::
 
 . . .
 
 - Extensive coding, data, and software development skills
 
+::: {.notes}
+
+My coding and analytics toolkit is pretty diverse, and I am constantly adding to it whenever I can, even in my free time.
+
+:::
+
 . . .
 
 - Passion for data analysis and open, reproducible methods
 
+::: {.notes}
+
+I love data and analytics and creating digital infrastructure that makes data useful to others and easy to share and audit.
+
+:::
+
+. . .
+
+::: {.notes}
+
+Overall, I'm very excited about this position because of how well it lines up with my interests and strengths: analyzing ecological datasets, supporting reproducible science, and collaborating across research teams. The focus on open, reproducible science and cross-disciplinary teamwork really aligns with the way I already approach my work.
+
+:::
+
 ## Conclusion
-Stretch Goals
+Just some ideas...
+
+::: {.notes}
+
+These are just a couple things I thought could be cool to explore if I have the opportunity to work with you all.
+
+:::
+
+. . .
 
 - Run coding and data workshops
+
+
+::: {.notes}
+
+In my previous role, I did a few small live coding demos and workshops for my team to showcase some packages, tech, and practices that I found really helpful in my work and thought others might be interested in as well. These were a lot of fun and well received, and I think it might be cool to do something like this again, maybe in a more formal way.
+
+:::
+
+. . .
+
 - Publish to CRAN, rOpenSci, Bioconductor, etc.
 
+::: {.notes}
+
+In the spirit of sharing and open research, I'd like to eventually get some helpful packages up to CRAN depending on the work we'd end up doing.
+
+:::
+
 ## Questions?
+
+::: {.notes}
+
+Just a final note: this talk was made using Quarto and all files are available on Github!
+
+:::
