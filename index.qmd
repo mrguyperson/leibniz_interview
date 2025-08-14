@@ -1,12 +1,13 @@
 ---
 format: 
     revealjs:
-        theme: night
+        theme: moon
         transition: fade
-        css: overlay.css
-        footer: '<a href="https://github.com/username/repo" target="_blank">View on GitHub</a>'
+        css: styles.css
+        footer: '<a href="https://github.com/mrguyperson/leibniz_interview" target="_blank">View on GitHub</a>'
 title: "Data Analyst in Bioinformatics and Ecology"
 author: Theodore Hermann
+date: 21 August, 2025
 title-slide-attributes:
   data-notes: |
     Hi everyone — and thanks so much for the chance to talk with you today. I’m Ted Hermann, and I’d like to spend the next few minutes walking you through my background, how I see my experience aligning with this position, and why I’m genuinely excited about the opportunity to support your work at IGB.
@@ -123,7 +124,6 @@ notes tests 2
 :::
 
 . . .
-
 
 
 - Control the environment, e.g., using Docker, renv and git 
