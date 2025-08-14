@@ -1,0 +1,165 @@
+---
+format: 
+    revealjs:
+        theme: night
+        transition: fade
+        css: overlay.css
+        footer: '<a href="https://github.com/username/repo" target="_blank">View on GitHub</a>'
+title: "Data Analyst in Bioinformatics and Ecology"
+author: Theodore Hermann
+title-slide-attributes:
+  data-notes: |
+    Hi everyone — and thanks so much for the chance to talk with you today. I’m Ted Hermann, and I’d like to spend the next few minutes walking you through my background, how I see my experience aligning with this position, and why I’m genuinely excited about the opportunity to support your work at IGB.
+
+---
+
+## Background
+- Degrees in Earth science, public administration, and biology
+- Experienced with a variety of data analytics tools
+- Several years of experience in client-facing roles
+- Track record of Open Science practices
+
+::: {.notes}
+
+I come from a background that brings together freshwater ecology and data science. Over the years, I’ve worked with spatial data, simulation models, and statistical analysis — using tools like R, Python, NetLogo, QGIS, git, and Docker.
+
+What excites me about this position is how well it lines up with my interests and strengths: analyzing complex datasets, supporting reproducible science, and collaborating across research teams. IGB’s focus on FAIR data practices, Open Science, and cross-disciplinary teamwork really speaks to the way I already approach my work.
+:::
+
+
+## Experience {.smaller}
+
+
+::: {.notes}
+At UC Santa Cruz, I was part of a team that developed FHAST, a simulation toolkit used by river managers. That meant integrating field and environmental data, building tools in R and NetLogo, and working within a structured timeline — not just writing a paper, but actually delivering software that could be used by non-technical stakeholders.
+:::
+
+🧰 FHAST (UC Santa Cruz)
+
+- Commissioned modeling tool for endangered species
+- Integrated R, NetLogo, and geospatial data in QGIS
+- Project included timelines, deliverables, and stakeholder input
+
+. . . 
+
+::: {.notes}
+I also performed a two month consultation with the Electric Power Research Institue. Here, I had to pivot into a new domain — working with engineers and physicists to build a predictive machine learning pipeline in Python while communicating frequently wiht our stakeholder. That experience really strengthened my ability to pick up new subject matter quickly.
+:::
+
+🧪 EPRI Consulting
+
+- Python ML pipeline for predictive maintenance
+- Interdisciplinary: worked outside my field and delivered results fast
+
+. . .
+
+::: {.notes}
+Finally, as a freelance editor, I spent years helping researchers and companies clarify and polish their work — whether that was writing original manuscripts, responding to editors, writing books, or simply finding grammatical errors. The role was all about service and communication.
+:::
+
+
+📝 Technical Editing & Writing Support
+
+- Helped researchers and clients publish, document, and organize work
+- Fluent in communicating complex ideas clearly
+
+## My Approach to Data Analysis {.smaller}
+
+. . .
+
+- Communication: what are the inputs and desired outputs of a project?
+
+::: {.notes}
+
+It's critical to find out what the data are (or aren't if a project still needs that) and what the expectation at the end is. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
+
+:::
+
+. . .
+
+- Develop a pipeline to keep things organized
+
+::: {.notes}
+notes tests 2
+:::
+
+
+::: {.fragment .fade-in-then-out .overlay}
+```{.r}
+library(targets)
+library(tarchetypes)
+library(here)
+
+tar_option_set(
+  packages = c("tidyverse")
+)
+
+tar_source()
+
+list(
+    tar_target(
+        name = path,
+        command = here("path/to/data.csv"),
+        format = "file"
+    ),
+    tar_target(
+        name = raw_data,
+        command = read_data(path)
+    ),
+    tar_target(
+        name = analyzed_data,
+        command = analyze_data(raw_data)
+    ),
+    tar_render(
+        name = manuscript,
+        path = here("path/to/manuscript.qmd")
+    )
+)
+```
+:::
+
+::: {.notes}
+notes tests 2
+:::
+
+. . .
+
+
+
+- Control the environment, e.g., using Docker, renv and git 
+
+::: {.notes}
+notes tests 3
+:::
+ 
+. . .
+
+- Keep it open and iterate
+
+## Conclusion
+
+What do I bring to IGB and the Research Data Management group?
+
+. . .
+
+- Jack of all trades with freshwater expertise
+
+. . .
+
+- Success in service-oriented roles both inside and outside knowledge base
+
+. . .
+
+- Extensive coding, data, and software development skills
+
+. . .
+
+- Passion for data analysis and open, reproducible methods
+
+## Conclusion
+Stretch Goals
+
+- Run coding and data workshops
+- Publish to CRAN, rOpenSci, Bioconductor, etc.
+
+## Questions?

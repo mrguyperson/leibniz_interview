@@ -1,0 +1,11 @@
+
+.overlay {
+  position: absolute;
+  top: 2em;   /* adjust so it sits nicely over bullets */
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 1); /* solid black */
+  padding: 1em;
+  border-radius: 8px;
+}
