@@ -1,2 +1,2 @@
 # leibniz_interview
-Short presentation given during my interview for the Data Analyst in Bioinformatics and Ecology position
+This is a revealjs presentation I made in Quarto that I gas during my interview for the Data Analyst in Bioinformatics and Ecology position at the Leibniz Institute on 21 August 2025. The presentation can be viewed [here](https://mrguyperson.github.io/leibniz_interview/index.html) in a web browser. After it's open, you can press the S key on your keyboard to open speaker notes. Navigate through the presentation using the arrow keys on your keyboard.
