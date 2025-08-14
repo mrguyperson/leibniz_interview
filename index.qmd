@@ -3,7 +3,7 @@ format:
     revealjs:
         theme: moon
         transition: fade
-        css: styles.css
+        css: css/styles.css
         footer: '<a href="https://github.com/mrguyperson/leibniz_interview" target="_blank">View on GitHub</a>'
 title: "Data Analyst in Bioinformatics and Ecology"
 author: Theodore Hermann
@@ -68,7 +68,17 @@ Finally, as a freelance editor, I spent years helping researchers and companies 
 - Helped researchers and clients publish, document, and organize work
 - Fluent in communicating complex ideas clearly
 
-## My Approach to Data Analysis {.smaller}
+## My Approach to Reproducible Science {.smaller}
+
+::: {.notes}
+
+Now I'll spend just a few moments outlining some of the steps I find most important for running open, reproducible, and shareable projects.
+
+**For code block:**
+
+My current go-to pipeline tool in R is the targets package. It allows for a whole project, from reading in data to producing a manuscript, to be controlled using a single command. Its opinionated structure forces each step of a project to be a single output produced by a function and upstream inputs. Steps are hashed so rerunning the pipeline will only run steps that were changed since the previous run. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.
+
+:::
 
 . . .
 
@@ -76,7 +86,7 @@ Finally, as a freelance editor, I spent years helping researchers and companies 
 
 ::: {.notes}
 
-It's critical to find out what the data are (or aren't if a project still needs that) and what the expectation at the end is. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
+First, it's critical to find out what the project needs are, especially the data and what the expectations for the end of the project are. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
 
 :::
 
@@ -86,12 +96,12 @@ It's critical to find out what the data are (or aren't if a project still needs 
 
 ::: {.notes}
 
-notes tests 2
+A simple file structure and the use of a pipeline manager keep your project organized, simple to run, and easy to maintain.
 
 :::
 
-
 ::: {.fragment .fade-in-then-out .overlay}
+
 ```{.r}
 library(targets)
 library(tarchetypes)
@@ -125,22 +135,25 @@ list(
 ```
 :::
 
-::: {.notes}
-notes tests 2
-:::
-
 . . .
 
-
-- Control the environment, e.g., using Docker, renv and git 
+- Control the environment, e.g., using Docker and renv
 
 ::: {.notes}
-notes tests 3
+
+For others to easily see and repeat what you did, it's crucial they can run the analysis using the same environment you did. That's where Docker comes in to create a consistent computing environment regardless of the computer you're using, and using something like renv ensures that package versions are the same as those used in development.
+
 :::
  
 . . .
 
-- Keep it open and iterate
+- Keep it open (e.g., using git and GitHub) and iterate
+
+::: {.notes}
+
+Finally, hosting everything on platforms like github simplifies collaboration, transparency and availability of your entire project, not just the data set you used.
+
+:::
 
 ## Conclusion
 

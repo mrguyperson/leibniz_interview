@@ -97,7 +97,7 @@
     code span.wa { color: #dcc6e0; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-06e768f098560084c2d7120de8ad04fb.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -293,8 +293,23 @@ Theodore Hermann
 </ul>
 </div>
 </section>
-<section id="my-approach-to-data-analysis" class="slide level2 smaller">
-<h2>My Approach to Data Analysis</h2>
+<section id="my-approach-to-reproducible-science" class="slide level2 smaller">
+<h2>My Approach to Reproducible Science</h2>
+<aside class="notes">
+<p>Now I’ll spend just a few moments outlining some of the steps I find most important for running open, reproducible, and shareable projects.</p>
+<p><strong>For code block:</strong></p>
+<p>My current go-to pipeline tool in R is the targets package. It allows for a whole project, from reading in data to producing a manuscript, to be controlled used a single command. Its opinionated structure forces each step of a project to be a single output produced by a function and upstream inputs. Steps are hashed so rerunning the pipeline will only run steps that were changed since the previous run. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <div class="fragment">
 <ul>
 <li>Communication: what are the inputs and desired outputs of a project?</li>
@@ -318,7 +333,7 @@ Theodore Hermann
 <li>Develop a pipeline to keep things organized</li>
 </ul>
 <aside class="notes">
-<p>notes tests 2</p>
+<p>A simple file structure and the use of a pipeline manager keep your project organized, simple to run, and easy to maintain.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -361,8 +376,13 @@ Theodore Hermann
 <span id="cb1-28"><a href=""></a>    )</span>
 <span id="cb1-29"><a href=""></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+</div>
+<div class="fragment">
+<ul>
+<li>Control the environment, e.g., using Docker and renv</li>
+</ul>
 <aside class="notes">
-<p>notes tests 2</p>
+<p>For others to easily see and repeat what you did, it’s crucial they can run the analysis using the same environment you did. That’s where Docker comes in to create a consistent computing environment regardless of the computer you’re using, and using something like renv ensures that package versions are the same as those used in development.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -377,10 +397,10 @@ Theodore Hermann
 </div>
 <div class="fragment">
 <ul>
-<li>Control the environment, e.g., using Docker, renv and git</li>
+<li>Keep it open (e.g., using git and GitHub) and iterate</li>
 </ul>
 <aside class="notes">
-<p>notes tests 3</p>
+<p>Finally, hosting everything on platforms like github simplifies collaboration, transparency and availability of your entire project, not just the data set you used.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -392,11 +412,6 @@ Theodore Hermann
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</div>
-<div class="fragment">
-<ul>
-<li>Keep it open and iterate</li>
-</ul>
 </div>
 </section>
 <section id="conclusion" class="slide level2">
