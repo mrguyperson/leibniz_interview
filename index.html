@@ -248,9 +248,9 @@ Theodore Hermann
       }</style></aside>
 <p>🧰 FHAST (UC Santa Cruz)</p>
 <ul>
-<li>Commissioned modeling tool for endangered species</li>
-<li>Integrated R, NetLogo, and geospatial data in QGIS</li>
-<li>Project included timelines, deliverables, and stakeholder input</li>
+<li>Built an agent-based modeling toolkit for salmon habitat management so river managers could directly test habitat restoration scenarios</li>
+<li>Integrated R, NetLogo, and GIS workflows into a cohesive product</li>
+<li>Project included timelines, deliverables, and stakeholder input to ensure the tool met real-world needs on schedule</li>
 </ul>
 <div class="fragment">
 <aside class="notes">
@@ -266,15 +266,11 @@ Theodore Hermann
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<p>🧪 EPRI Consulting</p>
-<ul>
-<li>Python ML pipeline for predictive maintenance</li>
-<li>Interdisciplinary: worked outside my field and delivered results fast</li>
-</ul>
+<p>🧪 EPRI Consulting - Used machine learning to help electrical engineers predict sensitive component failures earlier - Built and optimized a Python ML pipeline to improve fault detection and reduce unplanned downtime - Delivered results in an unfamiliar domain demonstrating adaptability and helping the client solve a persistent operational problem quickly</p>
 </div>
 <div class="fragment">
 <aside class="notes">
-<p>Finally, as a freelance editor, I spent years helping researchers and companies clarify and polish their work — whether that was writing original manuscripts, responding to editors, writing books, or simply finding grammatical errors. The role was all about service and communication.</p>
+<p>Finally, as a freelance editor, I spent years helping researchers and companies clarify and polish their work — whether that was writing original manuscripts, responding to editors, writing books, or simply finding grammatical errors. This was a pure service role, where success was measured by my clients’ success.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -288,8 +284,9 @@ Theodore Hermann
       }</style></aside>
 <p>📝 Technical Editing &amp; Writing Support</p>
 <ul>
-<li>Helped researchers and clients publish, document, and organize work</li>
-<li>Fluent in communicating complex ideas clearly</li>
+<li>Edited manuscripts, reports, and books so clients could meet publishing standards</li>
+<li>Followed strict deadlines and adherence to a number of style guides</li>
+<li>Success measured purely by client success</li>
 </ul>
 </div>
 </section>
@@ -298,7 +295,7 @@ Theodore Hermann
 <aside class="notes">
 <p>Now I’ll spend just a few moments outlining some of the steps I find most important for running open, reproducible, and shareable projects.</p>
 <p><strong>For code block:</strong></p>
-<p>My current go-to pipeline tool in R is the targets package. It allows for a whole project, from reading in data to producing a manuscript, to be controlled used a single command. Its opinionated structure forces each step of a project to be a single output produced by a function and upstream inputs. Steps are hashed so rerunning the pipeline will only run steps that were changed since the previous run. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.</p>
+<p>My current go-to pipeline tool in R is the targets package. It allows for a whole project, from reading in data to producing a manuscript, to be controlled using a single command. Its opinionated structure forces each step of a project to be a single output produced by a function and upstream inputs. Steps are hashed so rerunning the pipeline will only run steps that were changed since the previous run. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -315,7 +312,7 @@ Theodore Hermann
 <li>Communication: what are the inputs and desired outputs of a project?</li>
 </ul>
 <aside class="notes">
-<p>It’s critical to find out what the data are (or aren’t if a project still needs that) and what the expectation at the end is. Clearly defining end points is crucial to not waste time on the hard work that goes on between.</p>
+<p>First, it’s critical to find out what the project needs are, especially the data and the expectations for the end of the project. Clearly defining end points is crucial to not waste time on the hard work that goes on between.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -330,7 +327,7 @@ Theodore Hermann
 </div>
 <div class="fragment">
 <ul>
-<li>Develop a pipeline to keep things organized</li>
+<li>Develop a pipeline to keep things organized so colleagues can rerun, verify, and adapt results without guesswork</li>
 </ul>
 <aside class="notes">
 <p>A simple file structure and the use of a pipeline manager keep your project organized, simple to run, and easy to maintain.</p>
@@ -379,7 +376,7 @@ Theodore Hermann
 </div>
 <div class="fragment">
 <ul>
-<li>Control the environment, e.g., using Docker and renv</li>
+<li>Control the environment, e.g., using Docker and renv, to prevent the “well, it worked on my computer” problem</li>
 </ul>
 <aside class="notes">
 <p>For others to easily see and repeat what you did, it’s crucial they can run the analysis using the same environment you did. That’s where Docker comes in to create a consistent computing environment regardless of the computer you’re using, and using something like renv ensures that package versions are the same as those used in development.</p>
@@ -397,7 +394,7 @@ Theodore Hermann
 </div>
 <div class="fragment">
 <ul>
-<li>Keep it open (e.g., using git and GitHub) and iterate</li>
+<li>Use version control (e.g., git and GitHub) to allow others inside and outside the project to contribute and reuse code</li>
 </ul>
 <aside class="notes">
 <p>Finally, hosting everything on platforms like github simplifies collaboration, transparency and availability of your entire project, not just the data set you used.</p>
@@ -413,13 +410,31 @@ Theodore Hermann
           display:block!important;
       }</style></aside>
 </div>
+<div class="fragment">
+<ul>
+<li>Documentation so future researchers could find and understand the work without my direct involvement</li>
+</ul>
+<aside class="notes">
+<p>Leaving behind clear documentation allows others in the future to make use of all this work even if years have gone by.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
 </section>
-<section id="conclusion" class="slide level2">
+<section id="conclusion" class="slide level2 smaller">
 <h2>Conclusion</h2>
 <p>What would I bring to IGB and the Research Data Management group?</p>
 <div class="fragment">
 <ul>
-<li>Jack of all trades with freshwater expertise</li>
+<li>Broad skillset plus freshwater expertise so I can join new projects quickly and contribute value early</li>
 </ul>
 <aside class="notes">
 <p>My diverse education and work experience have helped me understand how to join a new project and identify what I need to learn to become productive and helpful right away. My knowledge of freshwater biology should make that process even faster.</p>
@@ -437,10 +452,10 @@ Theodore Hermann
 </div>
 <div class="fragment">
 <ul>
-<li>Success in service-oriented roles both inside and outside knowledge base</li>
+<li>Dedication to service-oriented roles both inside and outside knowledge base</li>
 </ul>
 <aside class="notes">
-<p>I have a track record of success in service roles across a number of domains, and I’d be excited to bring that experience to IGB.</p>
+<p>I have a track record of success in service roles across a number of domains, and I’d be excited to continue that experience at IGB.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -473,10 +488,10 @@ Theodore Hermann
 </div>
 <div class="fragment">
 <ul>
-<li>Passion for data analysis and open, reproducible methods</li>
+<li>Commitment to open, reproducible methods so colleagues can trust, share, and build on our results</li>
 </ul>
 <aside class="notes">
-<p>I love data and analytics and creating digital infrastructure that makes data useful to others and easy to share and audit.</p>
+<p>I love data and analytics and creating the digital infrastructure to make it useful to others and easy to share and audit.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -488,10 +503,9 @@ Theodore Hermann
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</div>
-<div class="fragment">
 <aside class="notes">
 <p>Overall, I’m very excited about this position because of how well it lines up with my interests and strengths: analyzing ecological datasets, supporting reproducible science, and collaborating across research teams. The focus on open, reproducible science and cross-disciplinary teamwork really aligns with the way I already approach my work.</p>
+<p>In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, and the mindset to keep the focus on service — making sure other people can do their work better because I’m here.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

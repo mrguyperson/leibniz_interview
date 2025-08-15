@@ -41,9 +41,9 @@ At UC Santa Cruz, I was part of a team that developed FHAST, a simulation toolki
 
 🧰 FHAST (UC Santa Cruz)
 
-- Commissioned modeling tool for endangered species
-- Integrated R, NetLogo, and geospatial data in QGIS
-- Project included timelines, deliverables, and stakeholder input
+- Built an agent-based modeling toolkit for salmon habitat management so river managers could directly test habitat restoration scenarios
+- Integrated R, NetLogo, and GIS workflows into a cohesive product
+- Project included timelines, deliverables, and stakeholder input to ensure the tool met real-world needs on schedule
 
 . . . 
 
@@ -52,21 +52,24 @@ I also performed a two month consultation with the Electric Power Research Insti
 :::
 
 🧪 EPRI Consulting
-
-- Python ML pipeline for predictive maintenance
-- Interdisciplinary: worked outside my field and delivered results fast
+- Used machine learning to help electrical engineers predict sensitive component failures earlier
+- Built and optimized a Python ML pipeline to improve fault detection and reduce unplanned downtime
+- Delivered results in an unfamiliar domain demonstrating adaptability and helping the client solve a persistent operational problem quickly
 
 . . .
 
 ::: {.notes}
-Finally, as a freelance editor, I spent years helping researchers and companies clarify and polish their work — whether that was writing original manuscripts, responding to editors, writing books, or simply finding grammatical errors. The role was all about service and communication.
+
+Finally, as a freelance editor, I spent years helping researchers and companies clarify and polish their work — whether that was writing original manuscripts, responding to editors, writing books, or simply finding grammatical errors. This was a pure service role, where success was measured by my clients' success.
+
 :::
 
 
 📝 Technical Editing & Writing Support
 
-- Helped researchers and clients publish, document, and organize work
-- Fluent in communicating complex ideas clearly
+- Edited manuscripts, reports, and books so clients could meet publishing standards
+- Followed strict deadlines and adherence to a number of style guides
+- Success measured purely by client success
 
 ## My Approach to Reproducible Science {.smaller}
 
@@ -86,13 +89,13 @@ My current go-to pipeline tool in R is the targets package. It allows for a whol
 
 ::: {.notes}
 
-First, it's critical to find out what the project needs are, especially the data and what the expectations for the end of the project are. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
+First, it's critical to find out what the project needs are, especially the data and the expectations for the end of the project. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
 
 :::
 
 . . .
 
-- Develop a pipeline to keep things organized
+- Develop a pipeline to keep things organized so colleagues can rerun, verify, and adapt results without guesswork
 
 ::: {.notes}
 
@@ -137,7 +140,7 @@ list(
 
 . . .
 
-- Control the environment, e.g., using Docker and renv
+- Control the environment, e.g., using Docker and renv, to prevent the "well, it worked on my computer" problem
 
 ::: {.notes}
 
@@ -147,7 +150,7 @@ For others to easily see and repeat what you did, it's crucial they can run the 
  
 . . .
 
-- Keep it open (e.g., using git and GitHub) and iterate
+- Use version control (e.g., git and GitHub) to allow others inside and outside the project to contribute and reuse code
 
 ::: {.notes}
 
@@ -155,7 +158,17 @@ Finally, hosting everything on platforms like github simplifies collaboration, t
 
 :::
 
-## Conclusion
+. . .
+
+- Documentation so future researchers could find and understand the work without my direct involvement
+
+::: {.notes}
+
+Leaving behind clear documentation allows others in the future to make use of all this work even if years have gone by.
+
+:::
+
+## Conclusion {.smaller}
 
 What would I bring to IGB and the Research Data Management group?
 
@@ -163,7 +176,7 @@ What would I bring to IGB and the Research Data Management group?
 
 . . .
 
-- Jack of all trades with freshwater expertise
+- Broad skillset plus freshwater expertise so I can join new projects quickly and contribute value early
 
 ::: {.notes}
 
@@ -173,11 +186,11 @@ My diverse education and work experience have helped me understand how to join a
 
 . . .
 
-- Success in service-oriented roles both inside and outside knowledge base
+- Dedication to service-oriented roles both inside and outside knowledge base
 
 ::: {.notes}
 
-I have a track record of success in service roles across a number of domains, and I'd be excited to bring that experience to IGB. 
+I have a track record of success in service roles across a number of domains, and I'd be excited to continue that experience at IGB. 
 
 :::
 
@@ -193,19 +206,20 @@ My coding and analytics toolkit is pretty diverse, and I am constantly adding to
 
 . . .
 
-- Passion for data analysis and open, reproducible methods
+- Commitment to open, reproducible methods so colleagues can trust, share, and build on our results
 
 ::: {.notes}
 
-I love data and analytics and creating digital infrastructure that makes data useful to others and easy to share and audit.
+I love data and analytics and creating the digital infrastructure to make it useful to others and easy to share and audit.
 
 :::
 
-. . .
 
 ::: {.notes}
 
 Overall, I'm very excited about this position because of how well it lines up with my interests and strengths: analyzing ecological datasets, supporting reproducible science, and collaborating across research teams. The focus on open, reproducible science and cross-disciplinary teamwork really aligns with the way I already approach my work.
+
+In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, and the mindset to keep the focus on service — making sure other people can do their work better because I’m here.
 
 :::
 
