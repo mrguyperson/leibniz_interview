@@ -22,11 +22,15 @@ title-slide-attributes:
 
 ::: {.notes}
 
-I come from a background that brings together freshwater ecology, Earth science, policy, and data science. This broad exposure to different areas of study has allowed me to succeed in projects with diverse knowledge bases. Over the years, I’ve worked with ecological data, spatial data, simulation models, and statistical analysis. 
+<!-- I come from a background that brings together freshwater ecology, Earth science, policy, and data science. This broad exposure to different areas of study has allowed me to succeed in projects with diverse knowledge bases. Over the years, I’ve worked with ecological data, spatial data, simulation models, and statistical analysis. 
 
-I have extensive experience addressing these problems with tools like R, Python, NetLogo, QGIS, git, and Docker in a way that supports open and reproducible science.
+I have extensive experience addressing these problems with tools like R, Python, NetLogo, QGIS, git, and Docker in a way that supports open and reproducible science. -->
+My career has combined freshwater biology, programming, and a focus on helping others succeed with data.
 
-And although my resume highlights my background in academia, most of the roles I've had over the last several years or so have been collaborative and service-focused.
+I’ve worked in research, consulting, and freelance positions but the common thread has been developing tools, analyses, and workflows that other people — scientists, engineers, decision makers — can actually use.
+
+I understand that this role is intendedd primarily as a service-oriented position, and that’s actually one of the reasons I was so strongly drawn to it when I first saw the posting. In my career so far, even though my title has often been ‘research scientist’ or ‘postdoctoral researcher,’ a significant portion of my work has been in direct service to others’ projects.
+
 
 
 :::
@@ -34,17 +38,11 @@ And although my resume highlights my background in academia, most of the roles I
 
 ## Experience {.smaller}
 
-::: {.notes}
-
-I understand that this role is intendedd primarily as a service-oriented position, and that’s actually one of the reasons I was so strongly drawn to it when I first saw the posting. In my career so far, even though my title has often been ‘research scientist’ or ‘postdoctoral researcher,’ a significant portion of my work has been in direct service to others’ projects.
-
-:::
-
 . . .
 
 ::: {.notes}
 
-For example, during my postdoctoral work at UC Santa Cruz, I helped develop FHAST (Fish Habitat Assessment and Simulation Tool), which was built using R and Netlogo. This was not strictly for my own use, but rather was a commissioned piece of software designed to meet the needs of river management agencies. That meant working with fixed timelines, gathering requirements from stakeholders, iterating on feedback, and ensuring the final product was usable and well-documented for others.
+For example, during my postdoctoral work at UC Santa Cruz, I helped develop FHAST (Fish Habitat Assessment and Simulation Tool), which was built using R and Netlogo. My job wasn’t just to publish — it was to deliver a working piece of software to our funders that could actually inform real-world river management decisions. That meant working with fixed timelines, gathering requirements from stakeholders, iterating on feedback, and ensuring the final product was usable and well-documented for others.
 
 <!-- At UC Santa Cruz, I was part of a team that developed FHAST, a simulation toolkit used by river managers. That meant integrating field and environmental data, building tools in R and NetLogo, and working within a structured timeline — not just writing a paper, but actually delivering software that could be used by non-technical stakeholders. -->
 
@@ -61,7 +59,7 @@ For example, during my postdoctoral work at UC Santa Cruz, I helped develop FHAS
 
 ::: {.notes}
 
-I also performed a two month consultation with the Electric Power Research Institue. Here, I had to pivot into a new domain — working with engineers and physicists to build a predictive machine learning pipeline in Python while communicating frequently with our stakeholder. To enabled a smooth handover for long-term, in-house use, my team and I carefully documented the pipeline and workflow, and optimized the feature selection and retraining processes to reduce engineering time needed for model updates. Again, the focus was on enabling their success.
+I also performed a two month consultation with the Electric Power Research Institue. Here, I worked with engineers and physicists to build a predictive machine learning pipeline in Python while communicating frequently with our stakeholder. To enabled a smooth project handover and facilitate long-term use, my team and I carefully documented the pipeline and workflow, and optimized retraining processes to reduce time needed for model updates. Again, the focus was on enabling stakeholder success.
 
 :::
 
@@ -98,7 +96,8 @@ Now I'll spend just a few moments outlining some of the steps I find most import
 
 **For code block:**
 
-My current go-to pipeline tool in R is the targets package. (Here is code for a simplified example). Targets allows for a whole project, from reading in raw data to producing a manuscript, to be controlled using a single command. It has an opinionated structure that forces each step of a project to be a single output produced by a function and upstream inputs. Built in hasing means that only steps with updated inputs get run again when rereunning the pipeline, thus saving time. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.
+My current go-to pipeline tool in R is the targets package. (Here is code for a simplified example). Targets allows for a whole project, from reading in raw data to producing a manuscript, to be controlled using a single command.<!-- It has an opinionated structure that forces each step of a project to be a single output produced by a function and upstream inputs. Built in hasing means that only steps with updated inputs get run again when rereunning the pipeline, thus saving time.  -->
+These tools enforce an organized code structure -- no more thousand-line do-it-all scripts -- reduce human error, and make the flow of the project clear.
 
 :::
 
@@ -173,7 +172,7 @@ For others to easily see and repeat what you did, it's crucial they can run the 
 
 ::: {.notes}
 
-Finally, hosting everything on platforms like github simplifies collaboration, transparency and availability of your entire project, not just the data set you used.
+Hosting everything on platforms like github simplifies collaboration, transparency and availability of your entire project, not just the data set you used.
 
 :::
 
@@ -183,7 +182,7 @@ Finally, hosting everything on platforms like github simplifies collaboration, t
 
 ::: {.notes}
 
-Leaving behind clear documentation allows others in the future to make use of all this work even if years have gone by.
+Finally, leaving behind clear documentation allows others in the future to make use of all this work even if years have gone by.
 
 :::
 
@@ -236,7 +235,7 @@ I love data and analytics and creating the digital infrastructure to make it use
 
 ::: {.notes}
 
-In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, a passion for open science, and the mindset to keep the focus on service.
+In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, a passion for open science, and the mindset to keep the focus on service. When I saw this job posting, I thought — this is it, this is the job. It’s a chance to bring together my analytical skills and experience in freshwater biology to help research projects succeed, where success is measured not just by my own outputs, but by how much I can help the team and stakeholders succeed with their goals. 
 
 :::
 
