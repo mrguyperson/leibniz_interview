@@ -24,9 +24,9 @@ title-slide-attributes:
 
 I come from a background that brings together freshwater ecology, Earth science, policy, and data science. This broad exposure to different areas of study has allowed me to succeed in projects with diverse knowledge bases. Over the years, I’ve worked with ecological data, spatial data, simulation models, and statistical analysis. 
 
-I have extensive experience solving these problems with tools like R, Python, NetLogo, QGIS, git, and Docker in a way that supports open and reproducible science.
+I have extensive experience addressing these problems with tools like R, Python, NetLogo, QGIS, git, and Docker in a way that supports open and reproducible science.
 
-And although my resume highlights my background in academia, most of the roles I've had over the several years or so have been collaborative and service-focused, which I will go into in just a moment.
+And although my resume highlights my background in academia, most of the roles I've had over the last several years or so have been collaborative and service-focused.
 
 
 :::
@@ -36,10 +36,12 @@ And although my resume highlights my background in academia, most of the roles I
 
 
 ::: {.notes}
+
 At UC Santa Cruz, I was part of a team that developed FHAST, a simulation toolkit used by river managers. That meant integrating field and environmental data, building tools in R and NetLogo, and working within a structured timeline — not just writing a paper, but actually delivering software that could be used by non-technical stakeholders.
+
 :::
 
-🧰 FHAST (UC Santa Cruz)
+🧰 Postdoc: FHAST (UC Santa Cruz)
 
 - Built an agent-based modeling toolkit for salmon habitat management so river managers could directly test habitat restoration scenarios
 - Integrated R, NetLogo, and GIS workflows into a cohesive product
@@ -48,10 +50,14 @@ At UC Santa Cruz, I was part of a team that developed FHAST, a simulation toolki
 . . . 
 
 ::: {.notes}
-I also performed a two month consultation with the Electric Power Research Institue. Here, I had to pivot into a new domain — working with engineers and physicists to build a predictive machine learning pipeline in Python while communicating frequently wiht our stakeholder. That experience really strengthened my ability to pick up new subject matter quickly.
+
+I also performed a two month consultation with the Electric Power Research Institue. Here, I had to pivot into a new domain — working with engineers and physicists to build a predictive machine learning pipeline in Python while communicating frequently with our stakeholder. That experience really strengthened my ability to pick up new subject matter quickly.
+
 :::
 
+
 🧪 EPRI Consulting
+
 - Used machine learning to help electrical engineers predict sensitive component failures earlier
 - Built and optimized a Python ML pipeline to improve fault detection and reduce unplanned downtime
 - Delivered results in an unfamiliar domain demonstrating adaptability and helping the client solve a persistent operational problem quickly
@@ -79,7 +85,7 @@ Now I'll spend just a few moments outlining some of the steps I find most import
 
 **For code block:**
 
-My current go-to pipeline tool in R is the targets package. It allows for a whole project, from reading in data to producing a manuscript, to be controlled using a single command. Its opinionated structure forces each step of a project to be a single output produced by a function and upstream inputs. Steps are hashed so rerunning the pipeline will only run steps that were changed since the previous run. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.
+My current go-to pipeline tool in R is the targets package. (Here is code for a simplified example). Targets allows for a whole project, from reading in data to producing a manuscript, to be controlled using a single command. It has an opinionated structure that forces each step of a project to be a single output produced by a function and upstream inputs. Built in hasing means that only steps with updated inputs get run again when rereunning the pipeline, thus saving time. Pipelines like this enforce an organized project structure, reduce human error, and make the flow of the project clear.
 
 :::
 
@@ -89,7 +95,7 @@ My current go-to pipeline tool in R is the targets package. It allows for a whol
 
 ::: {.notes}
 
-First, it's critical to find out what the project needs are, especially the data and the expectations for the end of the project. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
+First (step one or even step zero), it's critical to find out what the project needs are, especially the data and the expectations for the end of the project. Clearly defining end points is crucial to not waste time on the hard work that goes on between.
 
 :::
 
@@ -99,7 +105,7 @@ First, it's critical to find out what the project needs are, especially the data
 
 ::: {.notes}
 
-A simple file structure and the use of a pipeline manager keep your project organized, simple to run, and easy to maintain.
+A simple file structure and the use of a pipeline manager keep a project organized, simple to run, and easy to maintain.
 
 :::
 
@@ -217,9 +223,7 @@ I love data and analytics and creating the digital infrastructure to make it use
 
 ::: {.notes}
 
-Overall, I'm very excited about this position because of how well it lines up with my interests and strengths: analyzing ecological datasets, supporting reproducible science, and collaborating across research teams. The focus on open, reproducible science and cross-disciplinary teamwork really aligns with the way I already approach my work.
-
-In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, and the mindset to keep the focus on service — making sure other people can do their work better because I’m here.
+In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, a passion for open science, and the mindset to keep the focus on service.
 
 :::
 
