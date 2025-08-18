@@ -1,7 +1,7 @@
 ---
 format: 
     revealjs:
-        theme: moon
+        theme: night
         transition: fade
         css: css/styles.css
         footer: '<a href="https://github.com/mrguyperson/leibniz_interview" target="_blank">View on GitHub</a>'
@@ -15,34 +15,48 @@ title-slide-attributes:
 ---
 
 ## Background
-- Ph.D. Biology, M.P.A. – bridging science and applied problem solving
-- 7+ years experience in data science, modeling, and statistical analysis
-- Passion for reproducible workflows & open science
-- Proven track record in collaborative, service-driven projects
+:::: {.columns}
+::: {.column width="75%"}
+
+- Ph.D. Biology, M.P.A. – bridging science, policy, and data
+- 7+ years experience in data science, modeling, and analysis
+- Open science advocate: reproducible, transparent workflows
+- Consistently deliver tools, analyses, and support that help others succeed
+:::
+
+::: {.column width="25%"}
+![](images/catfish.png){.absolute height="150" top="90" right="80"}
+![](images/code.png){.absolute height="80" top="240" right="120"}
+![](images/opensci.png){.absolute height="100" top="350" right="120"}
+![](images/service.png){.absolute height="100" top="450" right="120"}
+
+
+:::
+
+::::
 
 ::: {.notes}
 
 <!-- I come from a background that brings together freshwater ecology, Earth science, policy, and data science. This broad exposure to different areas of study has allowed me to succeed in projects with diverse knowledge bases. Over the years, I’ve worked with ecological data, spatial data, simulation models, and statistical analysis. 
 
 I have extensive experience addressing these problems with tools like R, Python, NetLogo, QGIS, git, and Docker in a way that supports open and reproducible science. -->
-My career has combined freshwater biology, programming, and a focus on helping others succeed with data.
+<!-- My career has combined freshwater biology, programming, and a focus on helping others succeed with data.
 
 I’ve worked in research, consulting, and freelance positions but the common thread has been developing tools, analyses, and workflows that other people — scientists, engineers, decision makers — can actually use.
 
-I understand that this role is intendedd primarily as a service-oriented position, and that’s actually one of the reasons I was so strongly drawn to it when I first saw the posting. In my career so far, even though my title has often been ‘research scientist’ or ‘postdoctoral researcher,’ a significant portion of my work has been in direct service to others’ projects.
+I understand that this role is intended primarily as a service-oriented position, and that’s actually one of the reasons I was so strongly drawn to it when I first saw the posting. In my career so far, even though my title has often been ‘research scientist’ or ‘postdoctoral researcher,’ a significant portion of my work has been in direct service to others’ projects. -->
 
-
+My background combines biology, programming, and applied problem solving. Across research, consulting, and freelance work, the common thread has been creating tools, workflows, and analyses that others — scientists, engineers, decision makers — can actually use. That service focus is one of the things that really drew me to this role. Let me give you a few concrete examples of how that’s looked in practice.
 
 :::
 
 
 ## Experience {.smaller}
 
-. . .
-
 ::: {.notes}
+<!-- sDuring my postdoctoral work at UC Santa Cruz, I helped develop FHAST (Fish Habitat Assessment and Simulation Tool). My job wasn’t just to publish — my team had been commissioned to deliver a working piece of software to our funders that could inform real-world river management decisions. I owned data acquisition and cleaning, wrote R sub-models for predator–prey, adult migration pathfinding, and habitat cover, and integrated NetLogo and QGIS behind a clean workflow. I packaged everything in targets and Docker so others could rerun scenarios without touching my machine. We iterated with stakeholders on timelines, shipped documentation and training, and the result was a reproducible tool managers could use directly for A/B habitat decisions. -->
 
-For example, during my postdoctoral work at UC Santa Cruz, I helped develop FHAST (Fish Habitat Assessment and Simulation Tool), which was built using R and Netlogo. My job wasn’t just to publish — it was to deliver a working piece of software to our funders that could actually inform real-world river management decisions. That meant working with fixed timelines, gathering requirements from stakeholders, iterating on feedback, and ensuring the final product was usable and well-documented for others.
+During my postdoctoral work at UC Santa Cruz, I helped develop FHAST (Fish Habitat Assessment and Simulation Tool). My job wasn’t just to publish — my team had been commissioned to deliver a working piece of software to our funders that could inform real-world river management decisions. That meant working with fixed timelines, gathering requirements from stakeholders, iterating on feedback, and ensuring the final product was usable and well-documented for others.
 
 <!-- At UC Santa Cruz, I was part of a team that developed FHAST, a simulation toolkit used by river managers. That meant integrating field and environmental data, building tools in R and NetLogo, and working within a structured timeline — not just writing a paper, but actually delivering software that could be used by non-technical stakeholders. -->
 
@@ -50,7 +64,7 @@ For example, during my postdoctoral work at UC Santa Cruz, I helped develop FHAS
 
 🐟 Postdoc: FHAST (UC Santa Cruz)
 
-- Built an open-source agent-based modeling toolkit for fish habitat analysis → Allowed research groups and agencies to run habitat simulations reproducibly and without advanced coding expertise.
+- Open-source agent-based modeling toolkit for fish habitat analysis → Allowed research groups and agencies to run habitat simulations reproducibly and without advanced coding expertise.
 <!-- - Built an agent-based modeling toolkit for salmon habitat management so river managers could directly test habitat restoration scenarios
 - Integrated R, NetLogo, and GIS workflows into a cohesive product
 - Project included timelines, deliverables, and stakeholder input to ensure the tool met real-world needs on schedule -->
@@ -58,15 +72,18 @@ For example, during my postdoctoral work at UC Santa Cruz, I helped develop FHAS
 . . . 
 
 ::: {.notes}
+In a two-month engagement with the Electric Power Research Institute, I moved into a physics and electrical engineering domain to build a Python pipeline that predicts defects in electric equipment. My team's modeling pipeline cut error rates in half compared to the industry benchmark, but more importantly for our client, we delivered a maintainable repo, a white paper, and a retraining script so their engineers could update the model without us.
 
-I also performed a two month consultation with the Electric Power Research Institue. Here, I worked with engineers and physicists to build a predictive machine learning pipeline in Python while communicating frequently with our stakeholder. To enabled a smooth project handover and facilitate long-term use, my team and I carefully documented the pipeline and workflow, and optimized retraining processes to reduce time needed for model updates. Again, the focus was on enabling stakeholder success.
+<!-- I also consulted for the Electric Power Research Institue where I worked with engineers and physicists to build a reusable predictive machine learning pipeline in Python while communicating frequently with our stakeholder. Here again, the outcome wasn’t about my name on a product — but to provide something useful, understandable, and dependable. -->
+
+ <!-- To enable a smooth project handover and facilitate long-term use, my team and I carefully documented the pipeline and workflow and wrote a detailed white paper. Again, the focus was on enabling long-term stakeholder success. -->
 
 :::
 
 
 🔌 Consultation: EPRI Heat Exchanger ML Pipeline
 
-- Improved machine learning pipeline for heat exchanger fault detection → Helped engineers rapidly identify component failures, reducing downtime and maintenance costs.
+- Machine learning pipeline for heat exchanger fault detection → Helped engineers rapidly identify component failures, reducing downtime and maintenance costs.
 
 <!-- - Used machine learning to help electrical engineers predict sensitive component failures earlier
 - Built and optimized a Python ML pipeline to improve fault detection and reduce unplanned downtime
@@ -76,50 +93,77 @@ I also performed a two month consultation with the Electric Power Research Insti
 
 ::: {.notes}
 
-Finally, as a freelance editor, I spent years helping researchers and companies clarify and polish their work — whether that was writing original manuscripts, responding to editors, writing books, or simply finding grammatical errors in long texts. I had to meet tight deadlines, adapt to a wide range of subject matter, and strictly adhere to a variety of style guidelines. This was also a pure service role in which I adapted my approach to match clients' style and goals and where success was measured by their success.
+<!-- Finally, as a freelance editor, I edited hundreds of manuscripts and a couple dozen books to help researchers and companies clarify and polish their work — whether that helping non-native English speakers prepare their work for English-language journal, respond to editors, or simply find grammatical errors in long texts. I had to meet tight deadlines, adapt to a wide range of subject matter, and strictly adhere to a variety of style guidelines. This was also a pure service role in which I adapted my approach to match clients' style and goals and where my success was measured by client success. -->
+
+Alongside research, I spent years as a technical/copy editor for scientists and companies. My job was to make other people’s work land: structure arguments, clarify jargon, meet style guides, and hit deadlines. I worked extensively with non-native English researchers to ensure that language wasn't a barrier to their work reaching a large audience. This role taught me to listen, adapt to domain context quickly, and keep the spotlight on the client — pure service work where success is measured by their success.
+
+<!-- Finally, alongside research, I’ve also worked for years as a technical and copy editor.
+This was pure service work — my role was to sharpen other people’s writing so they could succeed with journals, funders, and clients.
+It trained me to listen closely, deliver on time, and keep the spotlight on others. -->
 
 :::
 
 
 📝 Freelance: Technical Editing & Writing Support
 
-- Edited technical manuscripts, reports, and proposals → Enabled authors and organizations to communicate findings more clearly and meet publication standards.
+<!-- - Edited technical manuscripts, reports, and proposals → Enabled authors and organizations to communicate findings more clearly and meet publication standards. -->
 <!-- - Edited manuscripts, reports, and books so clients could meet publishing standards
 - Followed strict deadlines and adherence to a number of style guides
 - Success measured purely by client success -->
+- Editor for scholars & companies → helped clients publish, secure grants, and communicate clearly
 
-## My Approach to Reproducible Science {.smaller}
+<!-- - Focused on clarity, consistency, and service to authors’ goals -->
 
+## Reproducible Science {.smaller}
 ::: {.notes}
 
-Now I'll spend just a few moments outlining some of the steps I find most important to me when running open, reproducible, and shareable projects.
+I’d also like to say a few words about my open science workflow. First, I haven't been following these practices simply because they were required at a previous job but rather due to frequent problems and frustrations that my team and I ran into:
 
-**For code block:**
+Sharing work lead to version control problems (data_FINAL_copy2.xlsx).
 
-My current go-to pipeline tool in R is the targets package. (Here is code for a simplified example). Targets allows for a whole project, from reading in raw data to producing a manuscript, to be controlled using a single command.<!-- It has an opinionated structure that forces each step of a project to be a single output produced by a function and upstream inputs. Built in hasing means that only steps with updated inputs get run again when rereunning the pipeline, thus saving time.  -->
-These tools enforce an organized code structure -- no more thousand-line do-it-all scripts -- reduce human error, and make the flow of the project clear.
+Colleagues (including me) making mistakes that were hard to trace.
 
+Code that ran on one person’s computer but not another's.
+
+Analyses buried in giant scripts that were impossible to debug six months later.
+
+And too often, no clear link between raw data and published results.
+
+Each time, I had to find solutions. Over time, I built a toolkit and workflow that’s now part of my professional DNA — reproducible pipelines, controlled environments, version control, and documentation so that results can actually be trusted, reused, and built on.
 :::
+
+Frequent problems:
 
 . . .
 
-- Communication: what are the inputs and desired outputs of a project?
+- Sharing, aka `data_FINAL_copy2.xlsx`
+- Hidden human errors
+- Well, it worked on my computer 🤷‍♀️
+- *6 months later*: ERROR in line 1,504\...
+- Raw data → manuscript (mystery steps in between)
+- so many more\...
 
-::: {.notes}
+## Reproducible Science {.smaller}
 
-(step one or even step zero: Communication) It's critical to find out what the project needs are, especially the data and the expectations for project outcomes. Clearly defining end points is crucial to not waste time on the all the hard work that goes on between.
+Solutions:
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+
+- Pipelines so analyses can be rerun, verified, and adapted without guesswork
+
 
 :::
 
-. . .
+::: {.column width="25%"}
 
-- Developing a pipeline to keep things organized so colleagues can rerun, verify, and adapt results without guesswork
-
-::: {.notes}
-
-Developing a pipeline: A simple file structure and the use of a pipeline manager keep a project organized, straighforward to run, and easy to maintain.
+![](images/targets.png){.absolute height="70" right="140" top="140"}
 
 :::
+
+::::
 
 ::: {.fragment .fade-in-then-out .overlay}
 
@@ -156,35 +200,135 @@ list(
 ```
 :::
 
-. . .
+
+::: {.notes}
+
+<!-- Organizing projects with simple file structures and the use of a pipeline manager. -->
+
+I organize projects with simple file structures and a pipeline manager, so anyone can rerun analyses easily and pick up my work without confusion.
+
+**For code block:**
+
+My current go-to pipeline tool in R is the targets package. (Here is code for a simplified example). Targets allows for a whole project to be controlled using a single command, from reading in raw data to producing a manuscript, leaving no ambiguity how you did something.
+These tools elimanate the thousand-line do-it-all scripts that work for one project but can't easily transfer to a new one and are challenging to debug. This reduces human error and makes the flow of the project clear.
+
+:::
+
+## Reproducible Science {.smaller}
+Solutions:
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+
+- Pipelines so analyses can be rerun, verified, and adapted without guesswork
+
 
 - Control the environment, e.g., using Docker and renv, to prevent the "well, it worked on my computer" problem
 
-::: {.notes}
-
-For others to easily see and repeat what you did, it's crucial they can run the analysis using the same environment you did. That's where Docker comes in to create a consistent computing environment regardless of the computer you're using, and using something like renv ensures that package versions are the same as those used in development.
-
 :::
- 
-. . .
 
-- Use version control (e.g., git and GitHub) to allow others inside and outside the project to contribute and reuse code
+::: {.column width="25%"}
 
-::: {.notes}
+![](images/targets.png){.absolute height="70" right="140" top="140"}
 
-Hosting everything on platforms like github simplifies collaboration, transparency and availability of your entire project, not just the data set you used.
+![](images/docker.png){.absolute height="70" right="160" top="220"}
+![](images/renv.png){.absolute height="70" right="60" top="220"}
 
 :::
 
-. . .
+::::
+
+
+::: {.notes}
+
+<!-- Next is making sure that anyone can run your code exactly the way you did. That's where Docker comes in to create a consistent computing environment regardless of the machine you're using; using something like renv ensures that package versions are the same as those used in development so nothing breaks. -->
+
+I use Docker and renv to lock environments and package versions. That means collaborators and future users can run my code exactly as I did, without breakages or setup headaches.
+
+:::
+
+
+
+## Reproducible Science {.smaller}
+Solutions:
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+
+- Pipelines so analyses can be rerun, verified, and adapted without guesswork
+
+
+- Control the environment, e.g., using Docker and renv, to prevent the "well, it worked on my computer" problem
+
+- Version control (e.g., git and GitHub) to allow others inside and outside the project to contribute and reuse code
+
+
+:::
+
+::: {.column width="25%"}
+
+![](images/targets.png){.absolute height="70" right="140" top="140"}
+
+![](images/docker.png){.absolute height="70" right="160" top="220"}
+![](images/renv.png){.absolute height="70" right="60" top="220"}
+
+![](images/git.png){.absolute height="70" right="140" top="310"}
+
+
+:::
+
+::::
+
+
+::: {.notes}
+
+Hosting projects on GitHub makes the entire workflow — data, code, and results — transparent and accessible, so teammates can track changes, contribute, or reuse pieces of the pipeline.
+
+:::
+
+## Reproducible Science {.smaller}
+Solutions:
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+
+- Pipelines so analyses can be rerun, verified, and adapted without guesswork
+
+- Control the environment, e.g., using Docker and renv, to prevent the "well, it worked on my computer" problem
+
+- Version control (e.g., git and GitHub) to allow others inside and outside the project to contribute and reuse code
 
 - Documentation so future researchers could find and understand the work without my direct involvement
 
-::: {.notes}
+:::
 
-Finally, leaving behind clear documentation allows others in the future to make use of all this work even if years have gone by.
+::: {.column width="25%"}
+
+![](images/targets.png){.absolute height="70" right="140" top="140"}
+
+![](images/docker.png){.absolute height="70" right="160" top="220"}
+![](images/renv.png){.absolute height="70" right="60" top="220"}
+
+![](images/git.png){.absolute height="60" right="140" top="310"}
+
+![](images/quarto.png){.absolute height="40" right="90" top="410"}
 
 :::
+
+::: {.notes}
+
+Documenting pipelines clearly, so years later others can still rerun, adapt, or extend my work — turning one person’s analysis into a lasting resource. And new tools like Quarto make it easy to integrate documents directly into the pipeline itself.
+
+:::
+
+::::
+
 
 ## Conclusion {.smaller}
 
@@ -198,7 +342,7 @@ What would I bring to IGB and the Research Data Management group?
 
 ::: {.notes}
 
-My diverse education and work experience have helped me understand how to join a new project and identify what I need to learn to become productive and helpful right away. My knowledge of freshwater biology should make that process even faster.
+I have the experience to join new projects and identify what I need to learn to become productive and helpful right away. My knowledge of freshwater biology should make that process even faster at IGB.
 
 :::
 
@@ -235,39 +379,10 @@ I love data and analytics and creating the digital infrastructure to make it use
 
 ::: {.notes}
 
-In short: I have the technical range to work on many types of projects, the domain knowledge to be relevant in freshwater ecology, a passion for open science, and the mindset to keep the focus on service. When I saw this job posting, I thought — this is it, this is the job. It’s a chance to bring together my analytical skills and experience in freshwater biology to help research projects succeed, where success is measured not just by my own outputs, but by how much I can help the team and stakeholders succeed with their goals. 
+In short: I have the technical range to work on many types of projects, the domain knowledge to be successful in freshwater ecology, a passion for open science, and the mindset to keep the focus on service. When I saw this job posting, I thought — this is it, this is the job. It’s a chance to bring together my passion for analytics, freshwater biology, and building software tools to help research projects succeed, where success is measured not just by my own outputs, but by how much I can help the team and stakeholders succeed with their goals. 
 
 :::
 
-## Conclusion
-Just some ideas...
-
-::: {.notes}
-
-These are just a couple things I thought could be cool to explore if I have the opportunity to work with you all.
-
-:::
-
-. . .
-
-- Run coding and data workshops
-
-
-::: {.notes}
-
-In my previous role, I did a few small live coding demos and workshops for my team to showcase some packages, tech, and practices that I found really helpful in my work and thought others might be interested in as well. These were a lot of fun and well received, and I think it might be cool to do something like this again, maybe in a more formal way.
-
-:::
-
-. . .
-
-- Publish to CRAN, rOpenSci, Bioconductor, etc.
-
-::: {.notes}
-
-In the spirit of sharing and open research, I'd like to eventually get some helpful packages up to CRAN depending on the work we'd end up doing.
-
-:::
 
 ## Questions?
 
