@@ -274,7 +274,7 @@ Solutions:
 ![](images/targets.png){.absolute height="70" right="140" top="140"}
 
 ![](images/docker.png){.absolute height="70" right="160" top="220"}
-![](images/renv.png){.absolute height="70" right="60" top="220"}
+![](images/renv.png){.absolute height="60" right="60" top="220"}
 
 ![](images/git.png){.absolute height="70" right="140" top="310"}
 
@@ -352,7 +352,7 @@ I have the experience to join new projects and identify what I need to learn to 
 
 ::: {.notes}
 
-I have a track record of success in service roles across a number of domains, and I'd be excited to continue that experience at IGB. 
+I have a track record of success in service roles across a number of domains, and I'd be excited to continue that at IGB. 
 
 :::
 
