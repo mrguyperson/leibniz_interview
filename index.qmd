@@ -5,6 +5,7 @@ format:
         transition: fade
         css: css/styles.css
         footer: '<a href="https://github.com/mrguyperson/leibniz_interview" target="_blank">View on GitHub</a>'
+        logo: images/igb.jpg
 title: "Data Analyst in Bioinformatics and Ecology"
 author: Theodore Hermann
 date: 21 August, 2025
@@ -15,25 +16,10 @@ title-slide-attributes:
 ---
 
 ## Background
-:::: {.columns}
-::: {.column width="75%"}
-
-- Ph.D. Biology, M.P.A. – bridging science, policy, and data
-- 5+ years of experience in data science, modeling, and analysis
-- Open science advocate: reproducible, transparent workflows
-- Consistently deliver tools, analyses, and support that help others succeed
-:::
-
-::: {.column width="25%"}
-![](images/catfish.png){.absolute height="150" top="90" right="80"}
-![](images/code.png){.absolute height="80" top="240" right="120"}
-![](images/opensci.png){.absolute height="100" top="350" right="120"}
-![](images/service.png){.absolute height="100" top="450" right="120"}
-
-
-:::
-
-::::
+- 🏞️ Freshwater biology + data science  
+- 💻 Biologist with a programmer’s mindset  
+- 🌐 Reproducibility advocate  
+- 🤝 Service-focused  
 
 ::: {.notes}
 
@@ -79,6 +65,8 @@ So whether it was software for river managers, a pipeline for engineers, or edit
 
 But across these roles, I also saw how fragile research processes could be. That’s what first pushed me to dig deeper into reproducible science.  
 
+I kept running into problems that frustrated me, and I saw it happening to colleagues too:
+
 :::
 
 
@@ -87,19 +75,9 @@ But across these roles, I also saw how fragile research processes could be. That
 - Editor for scholars & companies → helped clients publish, secure grants, and communicate clearly
 
 
-## Reproducible Science {.smaller}
-::: {.notes}
-Science is often bespoke — every dataset is different, and unlike professional software, research rarely starts with standardized workflows. Add in deadlines and limited time, and it’s natural for quick fixes to pile up.
 
-That’s not a criticism — I’ve been there myself. Scientists are busy, and the priority is keeping projects moving. That’s exactly why reproducible workflows as a service matter: they take some of that burden off researchers, while still giving them tools that are robust, transparent, and ready to use.
 
-Science takes time, it gets messy, and has a lot of issues I'm sure we've all encountered at some point:
-
-:::
-
-. . .
-
-Science gets messy
+## Science Gets Messy {.smaller}
 
 <div style="text-align: center;"> <img src="images/this_is_fine.jpg" height="400"> </div>
 
@@ -117,9 +95,7 @@ Instead of just accepting those frustrations as the cost of doing science, I sta
 :::
 
 
-## Reproducible Science {.smaller}
-
-Solutions:
+## Solutions that Work
 
 :::: {.columns}
 
@@ -158,7 +134,7 @@ list(
 ```
 :::
 
-::: {.column width="75%"}
+::: {.column width="80%"}
 
 
 - Pipelines → teammates can rerun analyses without guesswork
@@ -171,16 +147,16 @@ list(
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="20%"}
 
-![](images/targets.png){.absolute height="70" right="140" top="140"}
+![](images/targets.png){.absolute height="100" right="40" top="90"}
 
-![](images/docker.png){.absolute height="70" right="160" top="220"}
-![](images/renv.png){.absolute height="70" right="60" top="220"}
+![](images/docker.png){.absolute height="80" right="70" top="230"}
+![](images/renv.png){.absolute height="80" right="-10" top="230"}
 
-![](images/git.png){.absolute height="60" right="140" top="310"}
+![](images/git.png){.absolute height="70" right="50" top="360"}
 
-![](images/quarto.png){.absolute height="40" right="90" top="410"}
+![](images/quarto.png){.absolute height="50" right="-10" top="490"}
 
 :::
 
@@ -197,8 +173,9 @@ For collaboration, I put code, data, and documentation on **GitHub** so nothing 
 
 Finally, **documentation** — clear READMEs, inline notes, and **Quarto** reports — means future researchers can understand and extend the work without me in the room.
 
-For me, the point of all this isn’t reproducibility for its own sake — it’s giving people tools that actually save time and reduce stress. And stepping back, that’s the pattern in my work: turning messy challenges into reliable, reusable solutions others can trust and build on.
+*These practices are deliberately general.* The same pattern — modular steps, QC checkpoints, and versioned environments — extends across ecology, genomics (FASTQ/VCF), and even metadata/DMP basics; while I haven’t authored formal DMPs yet, but the workflow supports them out of the box.
 
+For me, the point of all this isn’t reproducibility for its own sake — it’s giving people tools that actually save time and reduce stress.
 
 :::
 
@@ -207,21 +184,35 @@ For me, the point of all this isn’t reproducibility for its own sake — it’
 <span class="fragment step-hold" aria-hidden="true"></span>
 
 
-## How I Can Contribute
-
-- Freshwater expertise: domain knowledge to ramp up quickly
-
-- Proven service mindset: success measured by enabling others
-
-- Technical range: coding, pipelines, reproducibility
-
-- Commitment to open science: transparent, shareable workflows
+## Reality of Research {.smaller}
 
 ::: {.notes}
 
-What excites me about IGB is its focus on service — building data management and research support as shared infrastructure. That’s where my freshwater background and technical skills can contribute most: helping the whole team’s work be stronger, more reproducible, and more impactful.
+But even with great tools, adoption isn’t instant. Scientists are busy, projects are bespoke, and there’s rarely time to refactor workflows with deadlines looming.
 
-That’s the role I’m looking for — not just producing results myself, but making sure the infrastructure we build together helps the institute move faster with confidence.
+That’s why I see reproducibility itself as a service. A dedicated person can package pipelines, environments, and templates to reduce the burden on scientists and ensure that best practices are easy to implement.
+
+The payoff is twofold: researchers keep their focus on the science, and the institute gains robust, transparent, reusable workflows that speed up work instead of slowing it down.
+
+So the question is: how do we turn these practices into shared infrastructure the whole institute can rely on? That’s exactly where I’d like to contribute.
+
+:::
+
+
+<div style="text-align: center;"> <img src="images/busy.jpg" height="400"> </div>
+
+## How I Can Contribute
+- 🏞️ Freshwater expertise
+- 💻 Technical range (R/Python, pipelines)
+- 🌐 Open, shareable workflows
+- 🤝 Reproducibility as a service
+
+
+::: {.notes}
+
+What excites me about IGB is building this as shared infrastructure: pipelines and environments that make projects easier to trust, reuse, and extend across teams.
+
+That’s the role I’m looking for — not just producing results myself, but making the *whole* institute’s work more reproducible, faster to iterate on, and easier to share because of the tools we build together.
 
 That’s the contribution I’d be excited to make with you.
 
@@ -236,5 +227,5 @@ Just a final note: this talk was made using Quarto and all files are available o
 
 
 <div style="text-align: center;">
-  <img src="images/drake_meme.jpg" height="500">
+  <img src="images/drake_meme.jpg" height="400">
 </div>
