@@ -17,12 +17,12 @@ title-slide-attributes:
 ## Background
 - 🏞️ Ph.D. in freshwater biology
 - 💻 Biologist with a programmer’s mindset
-- 🌐 Reproducibility advocate
+- 🌐 Reproducibility & open practices
 - 🤝 Service-focused
 
 ::: {.notes}
 
-I’m a freshwater biologist by training with a Ph.D. from the State University of New York. I also happen to code and love data analytics. Across research, consulting, and freelance roles, the throughline of my work has been building tools, workflows, and analyses that other people can use — scientists, engineers, and decision-makers.
+I’m a freshwater biologist by training with a Ph.D. from the State University of New York College of Environmental Science and Forestry. I also happen to code and love data analytics. Across research, consulting, and freelance roles, the throughline of my work has been building tools, workflows, and analyses that other people can use — scientists, engineers, and decision-makers.
 
 That service focus has been consistent, so I’ll share three quick examples.
 
@@ -45,7 +45,7 @@ At UC Santa Cruz, I helped build FHAST, a simulation toolkit for river managers.
 
 ::: {.notes}
 
-At the Electric Power Research Institute, I worked with engineers to build a Python ML pipeline for detecting equipment defects. My role was translating domain expertise into a clean, reproducible, maintainable workflow. We delivered a documented repo and a retraining script so their team could adapt the model independently.
+At the Electric Power Research Institute, I worked with engineers to turn their domain expertise into a clean, reproducible machine learning pipeline in Python for equipment-defect detection; we shipped a documented repo and retraining script so their team could maintain it independently.
 
 :::
 
@@ -142,7 +142,7 @@ list(
 
 - Version control → workflows open for team and community to reuse
 
-- Documentation → future researchers can build on the work without me present
+- Documentation → future researchers can build on the work without me
 
 :::
 
@@ -172,9 +172,7 @@ For collaboration, I put code, data, and documentation on **GitHub** so nothing 
 
 Finally, **documentation** — clear READMEs, inline notes, and **Quarto** reports — means future researchers can understand and extend the work without me in the room.
 
-*These practices are deliberately general.* The same pattern — modular steps, QC checkpoints, and versioned environments — extends across ecology, genomics (FASTQ/VCF), and even metadata/DMP basics; while I haven’t authored formal DMPs yet, but the workflow supports them out of the box.
-
-For me, the point of all this isn’t reproducibility for its own sake — it’s giving people tools that actually save time and reduce stress.
+*These practices are deliberately general.* The same pattern — modular steps, QC checkpoints, and versioned environments — extends across ecology, genomics (FASTQ/VCF), and even metadata/data management plans basics; while I haven’t authored formal data management plans yet, the workflow supports them out of the box.
 
 :::
 
@@ -211,7 +209,7 @@ So the question is: how do we turn these practices into shared infrastructure th
 
 What excites me here is building this as shared infrastructure—pipelines and environments that make projects easier to trust, reuse, and extend across teams.
 
-IGB is Germany’s largest freshwater research centre, with real reach across science and policy. That makes it an ideal place to standardise robust, open workflows that others can learn from and adopt.
+IGB is a leading freshwater research centre in Europe, with real reach across science and policy. That makes it an ideal place to standardise robust, open workflows that others can learn from and adopt.
 
 That’s the role I’m after: not just producing results myself, but helping the *whole* institute’s research be stronger, more reproducible, and more impactful because of the tools and practices we build together.
 
