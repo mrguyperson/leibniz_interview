@@ -162,17 +162,17 @@ list(
 ::: {.notes}
 
 
-The first thing I tackled was pipelines. Instead of fragile, thousand-line scripts, I use structured project layouts and a pipeline manager so analyses can be rerun without guesswork — not just by me, but by collaborators down the line. 
+The first thing I tackled was pipelines. Instead of fragile, thousand-line scripts, I use simple project layouts and pipeline managers so analyses can be rerun without guesswork — not just by me, but by collaborators down the line. 
 
 My go-to is the **targets** package in R, which can reproduce an entire project, including manuscripts, with a single command.
 
-Pipelines don’t fix everything, so I lock environments. **Docker** standardizes the system across machines, and **renv** freezes R package versions. That way others — even years later — can run the code exactly as I did.
+Pipelines don’t fix everything, so I lock environments. **Docker** standardizes the system across machines, and tools like **renv** freeze package versions for your project. That way others — even years later — can run the code exactly as I did.
 
 For collaboration, I put code, data, and documentation on **GitHub** so nothing lives on one laptop or buried as 10 versions in email threads. It keeps the workflow transparent for the team and open to the wider community for audit and reuse.
 
 Finally, **documentation** — clear READMEs, inline notes, and **Quarto** reports — means future researchers can understand and extend the work without me in the room.
 
-*These practices are deliberately general.* The same pattern — modular steps, QC checkpoints, and versioned environments — extends across ecology, genomics (FASTQ/VCF), and even metadata/data management plans basics; while I haven’t authored formal data management plans yet, the workflow supports them out of the box.
+*The best thing is, these practices are deliberately general.* You can do the same workflow using Python, conda, and snakemake, for example. And the same pattern — modular steps, QC checkpoints, and versioned environments — can be used for ecology, genomics (FASTQ/VCF), and even metadata/data management plans basics. 
 
 :::
 
@@ -207,9 +207,9 @@ So the question is: how do we turn these practices into shared infrastructure th
 
 ::: {.notes}
 
-What excites me here is building this as shared infrastructure—pipelines and environments that make projects easier to trust, reuse, and extend across teams.
+What excites me here is building this as shared infrastructure — pipelines and environments that make projects easier to trust, reuse, and extend across teams.
 
-IGB is a leading freshwater research centre in Europe, with real reach across science and policy. That makes it an ideal place to standardise robust, open workflows that others can learn from and adopt.
+IGB is one of the world's leading freshwater research centers, with real reach across science and policy. That makes it an ideal place to standardize robust, open workflows that others can learn from and adopt.
 
 That’s the role I’m after: not just producing results myself, but helping the *whole* institute’s research be stronger, more reproducible, and more impactful because of the tools and practices we build together.
 
@@ -221,7 +221,15 @@ That’s the contribution I’d be excited to make with you.
 ## Questions?
 
 ::: {.notes}
-Just a final note: this talk was made using Quarto and all files are available on GitHub!
+That's it from me.
+Thanks so much for your time.
+
+I'm happy to try to answer any and all questions.
+
+Oh, just a final note: this talk was made using Quarto and all files are available on GitHub!
+
+Thanks again.
+
 :::
 
 

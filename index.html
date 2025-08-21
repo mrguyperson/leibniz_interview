@@ -360,12 +360,12 @@ Theodore Hermann, Ph.D.
 <p><img data-src="images/git.png" class="absolute" style="top: 360px; right: 50px; height: 70px; "></p>
 <p><img data-src="images/quarto.png" class="absolute" style="top: 490px; right: -10px; height: 50px; "></p>
 </div><aside class="notes">
-<p>The first thing I tackled was pipelines. Instead of fragile, thousand-line scripts, I use structured project layouts and a pipeline manager so analyses can be rerun without guesswork — not just by me, but by collaborators down the line.</p>
+<p>The first thing I tackled was pipelines. Instead of fragile, thousand-line scripts, I use simple project layouts and pipeline managers so analyses can be rerun without guesswork — not just by me, but by collaborators down the line.</p>
 <p>My go-to is the <strong>targets</strong> package in R, which can reproduce an entire project, including manuscripts, with a single command.</p>
-<p>Pipelines don’t fix everything, so I lock environments. <strong>Docker</strong> standardizes the system across machines, and <strong>renv</strong> freezes R package versions. That way others — even years later — can run the code exactly as I did.</p>
+<p>Pipelines don’t fix everything, so I lock environments. <strong>Docker</strong> standardizes the system across machines, and tools like <strong>renv</strong> freeze package versions for your project. That way others — even years later — can run the code exactly as I did.</p>
 <p>For collaboration, I put code, data, and documentation on <strong>GitHub</strong> so nothing lives on one laptop or buried as 10 versions in email threads. It keeps the workflow transparent for the team and open to the wider community for audit and reuse.</p>
 <p>Finally, <strong>documentation</strong> — clear READMEs, inline notes, and <strong>Quarto</strong> reports — means future researchers can understand and extend the work without me in the room.</p>
-<p><em>These practices are deliberately general.</em> The same pattern — modular steps, QC checkpoints, and versioned environments — extends across ecology, genomics (FASTQ/VCF), and even metadata/data management plans basics; while I haven’t authored formal data management plans yet, the workflow supports them out of the box.</p>
+<p><em>The best thing is, these practices are deliberately general.</em> You can do the same workflow using Python, conda, and snakemake, for example. And the same pattern — modular steps, QC checkpoints, and versioned environments — can be used for ecology, genomics (FASTQ/VCF), and even metadata/data management plans basics.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -411,8 +411,8 @@ Theodore Hermann, Ph.D.
 <li>🤝 Reproducibility as a service</li>
 </ul>
 <aside class="notes">
-<p>What excites me here is building this as shared infrastructure—pipelines and environments that make projects easier to trust, reuse, and extend across teams.</p>
-<p>IGB is a leading freshwater research centre in Europe, with real reach across science and policy. That makes it an ideal place to standardise robust, open workflows that others can learn from and adopt.</p>
+<p>What excites me here is building this as shared infrastructure — pipelines and environments that make projects easier to trust, reuse, and extend across teams.</p>
+<p>IGB is one of the world’s leading freshwater research centers, with real reach across science and policy. That makes it an ideal place to standardize robust, open workflows that others can learn from and adopt.</p>
 <p>That’s the role I’m after: not just producing results myself, but helping the <em>whole</em> institute’s research be stronger, more reproducible, and more impactful because of the tools and practices we build together.</p>
 <p>That’s the contribution I’d be excited to make with you.</p>
 <style type="text/css">
@@ -430,7 +430,10 @@ Theodore Hermann, Ph.D.
 <section id="questions" class="slide level2">
 <h2>Questions?</h2>
 <aside class="notes">
-<p>Just a final note: this talk was made using Quarto and all files are available on GitHub!</p>
+<p>That’s it from me. Thanks so much for your time.</p>
+<p>I’m happy to try to answer any and all questions.</p>
+<p>Oh, just a final note: this talk was made using Quarto and all files are available on GitHub!</p>
+<p>Thanks again.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
